@@ -1,0 +1,25 @@
+.copy-text-content{
+  background: #ffff;
+
+  div{
+    p{
+    color: black;
+    }
+  }
+}
+
+.align-copy-text{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+
+.copy-btn{
+  position: absolute;
+  bottom: 0;
+}

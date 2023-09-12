@@ -17,11 +17,16 @@ log.txt
 /.versions
 /coverage
 
+# Angular
+/.angular
+
 # Ionic
 /.ionic
 /www
 /platforms
 /plugins
+/android
+/ios
 
 # Compiled output
 /dist

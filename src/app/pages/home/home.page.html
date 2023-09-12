@@ -1,0 +1,13 @@
+<ion-header *ngIf="!showRedLine" [translucent]="true">
+  <ion-toolbar>
+    <ion-icon slot="start" size="large" name="barcode-outline"></ion-icon>
+    <ion-title>Barcode Reader</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <span *ngIf="showRedLine" class="barcode-line"></span>
+    <ion-button *ngIf="!showRedLine"  class="btn-align" (click)="startScan()">
+      <ion-icon slot="start" name="camera"></ion-icon>
+      Camera</ion-button>
+</ion-content>

@@ -1,0 +1,27 @@
+.btn-align{
+  width: 30vw;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.barcode-line{
+  border: 1px solid red;
+  height: 1px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+ion-toolbar{
+    padding-inline-start: 20px;
+}
